@@ -1,0 +1,330 @@
+html,body
+{
+    height: 100%;
+    margin:0;
+    /* padding:0; */
+}
+main
+{   
+    margin:0;
+    padding:0;
+    min-height: 100%;
+    position: relative;
+}
+footer
+{   
+    padding: 10px 10px 0px 10px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom:0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+}
+
+header
+{
+    background-image: url(../image/background_header.jpeg);
+    background-size: cover;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+p
+{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+a
+{
+    font-family: 'Titillium Web', sans-serif;
+    text-decoration: none;
+}
+
+h1
+{
+    font-family: 'Teko', sans-serif;
+}
+h3
+{
+    font-family: 'Teko', sans-serif;
+    color: white;
+}
+
+.box_img1
+{
+    background-image: url(../image/img1_index.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 287px;
+    width: 60%;
+    opacity : 0.5;
+  
+}
+
+.box1_index
+{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.box_titre1_index
+{
+    display: flex;
+    justify-content: center;
+    text-shadow: 4px 4px 5px gray;
+}
+.box_titre2_index
+{
+    font-size: 60px;
+    font-family: 'Prompt', sans-serif;
+    text-align: center;
+}
+.box1_txt_index
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 250px;
+    background-color: rgba(211, 211, 211, 0.712);
+}
+.small_box_txt1
+{
+    display: flex;
+    justify-content: center;
+}
+.txt1_index
+{
+    width: 60%;
+}
+.small_box_txt2
+{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.txt2_index
+{
+   width: 40%;
+   padding-right: 5%;
+}
+.txt3_index
+{
+    padding-left: 4%;
+    width: 40%;
+    color: white;
+}
+.box2_index
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box3_index
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(47, 107, 175);
+    
+}
+
+/* Connexion */
+
+input[type="text"],
+input[type="password"],
+input[type="password2"] {
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+  padding: 10px;
+  margin: 10px;
+}
+
+.bouton_valider {
+  background-color: white;
+  color: black;
+  border: 3px solid rgb(12, 24, 41);
+  padding: 10px 24px;
+  border-radius: 10px;
+  font-size: 15px;
+}
+.main2_connex {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+.big_box_form_connex {
+  display: flex;
+  justify-content: center;
+}
+.box_form_connex {
+  background-color: rgb(36, 98, 192);
+  width: 25%;
+  height: 170px;
+  border-radius: 10px;
+}
+.box_erreur {
+  text-align: center;
+}
+
+/* Inscription */
+
+.big_box_form
+{
+    display: flex;
+    justify-content: center;
+}
+.box_form
+{
+    background-color: gray;
+    width: 25%;
+    height: 40%;
+    border-radius: 10px;
+}
+input[type=text],input[type=password],input[type=password2]
+{
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+    padding: 10px;
+    margin: 10px;
+}
+
+.bouton_valider
+{
+    background-color: white;
+    color: black;
+    border: 3px solid rgb(39, 104, 202);
+    padding: 10px 24px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.main2_inscription
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+ /* Planning */
+
+.box_plan{
+  display: flex;
+  justify-content: center;
+  
+}
+.box_titre_planning {
+  display: flex;
+  justify-content: center;
+  text-shadow: 4px 4px 5px gray;
+}
+
+table,
+td,
+th {
+  border: 1px solid black;
+  text-align: center;
+  table-layout: fixed;
+  font-family: "Prompt", sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  height: 50px;
+}
+
+    /* Profil */
+
+input[type=text],input[type=password],input[type=password2]
+{
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+    padding: 10px;
+    margin: 10px;
+}
+
+.btn_valider
+{
+    background-color: white;
+    color: black;
+    border: 3px solid rgb(39, 104, 202);
+    padding: 10px 24px;
+    border-radius: 10px;
+    font-size: 15px;
+
+}
+
+.big_box_form_profil,.box_text
+{
+    padding-left: 2%;
+}
+
+
+/* Reservation form */
+
+
+input[type="text"],
+input[type="datetime"] {
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+  padding: 10px;
+  margin: 10px;
+}
+
+.bouton_valider {
+  background-color: white;
+  color: black;
+  border: 3px solid rgb(12, 24, 41);
+  padding: 10px 24px;
+  border-radius: 10px;
+  font-size: 15px;
+}
+.main2_reservation-form {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  
+}
+span.condition{
+  background: rgb(252, 9, 9);
+  font-size: 25px;
+}
+
+
+
+
+
+
+
+
